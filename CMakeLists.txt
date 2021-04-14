@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 2.8.2)
+cmake_minimum_required(VERSION 3.8)
 project(myproj)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-include_directories(.)
+include_directories(. "./third_part/")
 
 add_subdirectory(math_funcs)
 add_subdirectory(app)
